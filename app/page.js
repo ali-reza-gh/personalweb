@@ -9,19 +9,19 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <section id="Home">
-        <div className="container justify-center m-auto">
-            <div className="up flex gap-10">
-              <div className="hero-text w-3/5 ">
-                <h1 className=" text-xl font-black ">
+      <section id="Home" className="bg-[#f9f9f9] h-[91vh]">
+        <div className="w-[950px] justify-center m-auto">
+            <div className="flex gap-20 pt-52">
+              <div className="hero-text w-3/5 space-y-6 ">
+                <h1 className="relative text-6xl font-black leading-tight text-zinc-700">
                   Front-End React Developer
+                <Image className="flex absolute left-80 bottom-1" src={waving} width={80} height={80} alt="waveHand" />
                 </h1>
-                <Image className="flex" src={waving} width={100} height={100} alt="waveHand" />
-                <p>
+                <p className="text-[#555] text-lg font-medium leading-loose tracking-wide">
                   Hi, I'm Alireza Ghaffar. A passionate Front-end React
                   Developer based in Qazvin, Iran. 📍
                 </p>
-                <div className="flex">
+                <div className="flex gap-5">
                 <Link href="#">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -65,16 +65,16 @@ export default function Home() {
                 </Link>
                 </div>
               </div>
-              <div className="hero-image w-2/5"> 
-                <Image src={me} alt="its me" width={100} height={100} />
+              <div className="flex w-2/5 justify-center"> 
+                <Image src={me} alt="its me" width={200} height={200} />
               </div>
               
 
             </div>
-            <div className="flex">
-              <p>Tech Stack</p>
-              <div className="">
-                <ul className="flex my-4">
+            <div className="flex items-center gap-20 mt-40">
+              <p className="text-lg font-medium border-r-2 border-gray-500 pr-6">Tech Stack</p>
+              <div>
+                <ul className="flex gap-7">
                   <li>
                     <img
                       src="https://skillicons.dev/icons?i=html,css"
