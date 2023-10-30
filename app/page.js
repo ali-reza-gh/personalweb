@@ -3,6 +3,8 @@
 import Image from "next/image";
 import waving from "@/public/image/waving.1.png";
 import me from "@/public/image/me.jpg";
+//style
+import "@/app/myimage.css"
 
 import Link from "next/link";
 
@@ -65,16 +67,22 @@ export default function Home() {
                 </Link>
                 </div>
               </div>
-              <div className="flex w-2/5 justify-center"> 
-                <Image src={me} alt="its me" width={200} height={200} />
+              <div className="flex w-2/5 justify-center "> 
+                   <div className="box">
+                     <div className="spin-container">
+                       <div className="shape">
+                         <div className="bd"></div>
+                       </div>
+                      </div>
+                   </div>
               </div>
               
 
             </div>
-            <div className="flex items-center gap-20 mt-40">
+            <div className="flex items-center gap-16 mt-40">
               <p className="text-lg font-medium border-r-2 border-gray-500 pr-6">Tech Stack</p>
               <div>
-                <ul className="flex gap-7">
+                <ul className="flex gap-10">
                   <li>
                     <img
                       src="https://skillicons.dev/icons?i=html,css"
