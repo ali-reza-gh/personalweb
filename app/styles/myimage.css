@@ -36,7 +36,7 @@
     position: absolute;
     left: -21%;
     top: -21%;
-    background: url(../public/image/me.jpg);
+    background: url(../../public/image/me.jpg);
     background-size: 100%;
     background-position: center center;
     display: flex;
