@@ -3,6 +3,7 @@ import React from 'react';
 import AboutMeIMG from '@/public/image/aboutme.jpg'
 import AboutMeSVG from '@/public/image/aboutsvg.svg'
 import programmer from '@/public/image/programmer.svg'
+import "@/app/styles/animation.css"
 
 
 const AboutMe = () => {
@@ -14,7 +15,7 @@ const AboutMe = () => {
                     <Image className='rounded-2xl object-cover' src={AboutMeIMG} alt='About me' width={400} height={300}/>
 
                     <span className='absolute bottom-[-3rem] right-10 bg-white rounded-full '>
-                        <Image className="transform: rotate(3.142rad);" src={AboutMeSVG} alt='text' width={200} height={200}/>
+                        <Image id='svg' className="transform: rotate(3.142rad);" src={AboutMeSVG} alt='text' width={200} height={200}/>
                         <Image className='absolute bottom-14 right-14' src={programmer} alt='svg' width={90} height={90} />
                     </span>
                 </div>
