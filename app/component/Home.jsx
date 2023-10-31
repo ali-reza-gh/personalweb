@@ -12,7 +12,7 @@ const Home = () => {
         <section id="Home" className="bg-[#f9f9f9] h-[91vh]">
         <div className="w-[950px] justify-center m-auto">
             <div className="flex gap-20 pt-52">
-              <div className="hero-text w-3/5 space-y-6 ">
+              <div className="w-3/5 space-y-6 ">
                 <h1 className="relative text-6xl font-black leading-tight text-zinc-700">
                   Front-End React Developer
                 <Image className="flex absolute left-80 bottom-1" src={waving} width={80} height={80} alt="waveHand" />
