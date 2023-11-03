@@ -8,7 +8,7 @@ import "@/app/styles/animation.css"
 
 const AboutMe = () => {
     return (
-        <section id="About" className="bg-white">
+        <section id="About" >
         <div className="w-[1000px] justify-center m-auto py-40">
             <div className="flex">
                 <div className="w-1/2 flex relative">
