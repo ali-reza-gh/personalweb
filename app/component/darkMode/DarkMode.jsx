@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
 import { FaMoon, FaSun } from 'react-icons/fa'
 
-const DarkModeButton = () => {
+const DarkModeButton = (prop) => {
   const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
 
@@ -14,10 +14,9 @@ const DarkModeButton = () => {
   if (!mounted) {
     return null
   }
-
   return (
-    <button className='absolute right-4 bottom-4' onClick={e => theme === 'dark' ? setTheme('light') : setTheme('dark')}>
-        {theme === 'dark' ? <FaMoon /> : <FaSun />}
+    <button className={prop.className} onClick={e => theme === 'dark' ? setTheme('light') : setTheme('dark')}>
+        {theme === 'dark' ? <FaMoon className=" w-8 h-8 " /> : <FaSun className=" w-8 h-8 " />}
     </button>
   )
 }
