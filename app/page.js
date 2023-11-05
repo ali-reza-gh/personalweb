@@ -8,7 +8,7 @@ import DarkModeButton from "@/app/component/darkMode/DarkMode";
 
 export default function root() {
   return (
-    <div className="relative">
+    <div>
       <Home />
       <Abuot />
       <Project />
