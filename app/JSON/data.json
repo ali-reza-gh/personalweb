@@ -1,11 +1,47 @@
-
-    {
-        "id":1,
-        "img":"/image/car.webp",
-        "title":"CAR RENTAL(FEBRUARY 2023)🚗",
-        "discription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quas exercitationem in, praesentium possimus dolorem aut labore! Dolorum corrupti quis obcaecati explicabo, unde recusandae culpa quisquam. Tempora reiciendis quidem, hic excepturi tenetur quod unde! Facere, ipsam voluptatibus beatae dicta pariatur dolore aspernatur praesentium cumque. A quae obcaecati temporibus pariatur qui.",
-        "tech":{"frame":"React","ui":"Tailwind"},
-        "code":"url",
-        "live":"url",
-        "isOdd":true
-    }
+[    {
+    "id":1,
+    "img":"/image/car.webp",
+    "title":"CAR RENTAL(FEBRUARY 2023)🚗",
+    "discription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quas exercitationem in, praesentium possimus dolorem aut labore! Dolorum corrupti quis obcaecati explicabo, unde recusandae culpa quisquam. Tempora reiciendis quidem, hic excepturi tenetur quod unde! Facere, ipsam voluptatibus beatae dicta pariatur dolore aspernatur praesentium cumque. A quae obcaecati temporibus pariatur qui.",
+    "tech":{"frame":"React","ui":"Tailwind"},
+    "code":"url",
+    "live":"url",
+    "isOdd":true
+},{
+    "id":2,
+    "img":"/image/car.webp",
+    "title":"CAR RENTAL(FEBRUARY 2023)🚗",
+    "discription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quas exercitationem in, praesentium possimus dolorem aut labore! Dolorum corrupti quis obcaecati explicabo, unde recusandae culpa quisquam. Tempora reiciendis quidem, hic excepturi tenetur quod unde! Facere, ipsam voluptatibus beatae dicta pariatur dolore aspernatur praesentium cumque. A quae obcaecati temporibus pariatur qui.",
+    "tech":{"frame":"React","ui":"Tailwind"},
+    "code":"url",
+    "live":"url",
+    "isOdd":false
+},{
+    "id":3,
+    "img":"/image/car.webp",
+    "title":"CAR RENTAL(FEBRUARY 2023)🚗",
+    "discription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quas exercitationem in, praesentium possimus dolorem aut labore! Dolorum corrupti quis obcaecati explicabo, unde recusandae culpa quisquam. Tempora reiciendis quidem, hic excepturi tenetur quod unde! Facere, ipsam voluptatibus beatae dicta pariatur dolore aspernatur praesentium cumque. A quae obcaecati temporibus pariatur qui.",
+    "tech":{"frame":"React","ui":"Tailwind"},
+    "code":"url",
+    "live":"url",
+    "isOdd":true
+},{
+    "id":4,
+    "img":"/image/car.webp",
+    "title":"CAR RENTAL(FEBRUARY 2023)🚗",
+    "discription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quas exercitationem in, praesentium possimus dolorem aut labore! Dolorum corrupti quis obcaecati explicabo, unde recusandae culpa quisquam. Tempora reiciendis quidem, hic excepturi tenetur quod unde! Facere, ipsam voluptatibus beatae dicta pariatur dolore aspernatur praesentium cumque. A quae obcaecati temporibus pariatur qui.",
+    "tech":{"frame":"React","ui":"Tailwind"},
+    "code":"url",
+    "live":"url",
+    "isOdd":false
+},{
+    "id":5,
+    "img":"/image/car.webp",
+    "title":"CAR RENTAL(FEBRUARY 2023)🚗",
+    "discription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quas exercitationem in, praesentium possimus dolorem aut labore! Dolorum corrupti quis obcaecati explicabo, unde recusandae culpa quisquam. Tempora reiciendis quidem, hic excepturi tenetur quod unde! Facere, ipsam voluptatibus beatae dicta pariatur dolore aspernatur praesentium cumque. A quae obcaecati temporibus pariatur qui.",
+    "tech":{"frame":"React","ui":"Tailwind"},
+    "code":"url",
+    "live":"url",
+    "isOdd":true
+}
+]
