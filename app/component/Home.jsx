@@ -13,11 +13,11 @@ const Home = () => {
         <div className="w-[950px] justify-center m-auto">
             <div className="flex gap-20 pt-52">
               <div className="w-3/5 space-y-6 ">
-                <h1 className="relative text-6xl font-black leading-tight text-zinc-700">
+                <h1 className="relative text-6xl font-black leading-tight text-zinc-700 dark:text-white">
                   Front-End React Developer
                 <Image className="flex absolute left-80 bottom-1" src={waving} width={80} height={80} alt="waveHand" />
                 </h1>
-                <p className="text-[#555] text-lg font-medium leading-loose tracking-wide">
+                <p className="text-[#555] dark:text-gray-400  text-lg font-medium leading-loose tracking-wide">
                   Hi, I'm Alireza Ghaffar. A passionate Front-end React
                   Developer based in Qazvin, Iran. 📍
                 </p>

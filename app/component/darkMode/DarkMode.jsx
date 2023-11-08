@@ -16,7 +16,7 @@ const DarkModeButton = (prop) => {
   }
   return (
     <button className={prop.className} onClick={() =>setTheme(theme === 'dark' ? 'light' : 'dark')}>
-        {theme === 'dark' ? <FaMoon className=" w-8 h-8 opacity-80" /> : <FaSun className="text-yellow-500  w-8 h-8 opacity-80 " />}
+        {theme === 'dark' ? <FaMoon className=" w-8 h-8" /> : <FaSun className="text-yellow-500 w-8 h-8 " />}
     </button>
   )
 }

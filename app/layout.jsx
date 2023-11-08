@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
               <a href="#Home">Home</a>
               <a href="#About">About</a>
               <a href="#Projects">Projects</a>
-              <a href="#">Contact</a>
+              <a href="#Contact">Contact</a>
             </div>
           </div>
       </nav>
