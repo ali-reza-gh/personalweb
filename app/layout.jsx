@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
             <div className="flex space-x-4 font-semibold">
               <a href="#Home">Home</a>
               <a href="#About">About</a>
-              <a href="#Projects"></a>
+              <a href="#Projects">Projects</a>
               <a href="#">Contact</a>
             </div>
           </div>
