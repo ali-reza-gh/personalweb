@@ -12,7 +12,7 @@ export default function root() {
       <Home />
       <Abuot />
       <Project />
-      <DarkModeButton className={"fixed right-4 bottom-16  p-2 rounded-full bg-slate-400"} />  
+      <DarkModeButton className={"fixed right-4 bottom-16 p-2 rounded-full bg-gray-500"} />  
     </div>
   );
 }

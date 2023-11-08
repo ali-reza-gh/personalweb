@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Home = () => {
     return (
-        <section id="Home" className="bg-[#f9f9f9] h-[91vh]">
+        <section id="Home" className="bg-[#f9f9f9] dark:bg-red-950 h-[91vh]">
         <div className="w-[950px] justify-center m-auto">
             <div className="flex gap-20 pt-52">
               <div className="w-3/5 space-y-6 ">
