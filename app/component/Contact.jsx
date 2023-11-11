@@ -28,7 +28,7 @@ const Contact = () => {
          <p className="text-gray-600 dark:text-gray-400 text-lg font-normal leading-snug">Qazvin,Iran</p>
          </div>
          </div>
-         <div className='flex gap-7 items-center'>
+         <a href='mailto:alirezaghaffar.dev@gmail.com' className='flex gap-7 items-center'>
             <div className='shadow-lg p-2 rounded-full'>
             <svg className='text-blue-600'
              width="30" height="30" 
@@ -38,11 +38,11 @@ const Contact = () => {
                 <path className="text-blue-600" d="M3 7l9 6l9 -6"></path>
                 </svg>
         </div>
-        <a href='mailto:alirezaghaffar.dev@gmail.com'>
+        <div>
          <p className="text-lg font-extrabold leading-snug">Mail</p>
          <p className="text-gray-600 dark:text-gray-400 text-lg font-normal leading-snug" >alirezaghaffar.dev@gmail.com</p>
-         </a>
          </div>
+         </a>
         </div>
         </div>
       </section>

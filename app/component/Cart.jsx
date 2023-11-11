@@ -8,8 +8,8 @@ const Cart = (data) => {
         isOdd?
         <div className='flex text-center border my-20 px-20 py-10 rounded-3xl gap-20'>
             
-            <div className='w-3/5 h-80 overflow-hidden rounded-2xl shadow-lg transition ease-in-out hover:-translate-y-1'>
-            <Image src={img} alt='project image'width={900} height={700} />
+            <div className='w-3/5 h-80 overflow-hidden rounded-2xl shadow-lg '>
+            <Image src={img} alt='project image'width={900} height={700} className='transition duration-[10s] ease-in-out hover:-translate-y-[83%]'/>
             </div>
             <div className='w-2/5 '>
                 <p className="text-lg font-extrabold leading-snug">{title}</p>
@@ -50,7 +50,7 @@ const Cart = (data) => {
     
                 </div>
                 <div className='w-3/5 h-80 overflow-hidden rounded-2xl shadow-lg'>
-                <Image src={img} alt='project image'width={900} height={700} />
+            <Image src={img} alt='project image'width={900} height={700} className='transition duration-[10s] ease-in-out hover:-translate-y-[83%]'/>
                 </div>
             </div>
     );
