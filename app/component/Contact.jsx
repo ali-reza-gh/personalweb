@@ -38,10 +38,10 @@ const Contact = () => {
                 <path className="text-blue-600" d="M3 7l9 6l9 -6"></path>
                 </svg>
         </div>
-        <div>
+        <a href='mailto:alirezaghaffar.dev@gmail.com'>
          <p className="text-lg font-extrabold leading-snug">Mail</p>
-         <a className="text-gray-600 dark:text-gray-400 text-lg font-normal leading-snug" href='mailto:alirezaghaffar.dev@gmail.com'>alirezaghaffar.dev@gmail.com</a>
-         </div>
+         <p className="text-gray-600 dark:text-gray-400 text-lg font-normal leading-snug" >alirezaghaffar.dev@gmail.com</p>
+         </a>
          </div>
         </div>
         </div>

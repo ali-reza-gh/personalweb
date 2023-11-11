@@ -2,7 +2,7 @@
     "id":1,
     "img":"/image/car.webp",
     "title":"CAR RENTAL(FEBRUARY 2023)🚗",
-    "discription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quas exercitationem in, praesentium possimus dolorem aut labore! Dolorum corrupti quis obcaecati explicabo, unde recusandae culpa quisquam. Tempora reiciendis quidem, hic excepturi tenetur quod unde! Facere, ipsam voluptatibus beatae dicta pariatur dolore aspernatur praesentium cumque. A quae obcaecati temporibus pariatur qui.",
+    "discription":"A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
     "tech":{"frame":"React","ui":"Tailwind"},
     "code":"url",
     "live":"url",
@@ -10,7 +10,7 @@
 },{
     "id":2,
     "img":"/image/car.webp",
-    "title":"CAR RENTAL(FEBRUARY 2023)🚗",
+    "title":"COINDOM(FEBRUARY 2023)🪙",
     "discription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quas exercitationem in, praesentium possimus dolorem aut labore! Dolorum corrupti quis obcaecati explicabo, unde recusandae culpa quisquam. Tempora reiciendis quidem, hic excepturi tenetur quod unde! Facere, ipsam voluptatibus beatae dicta pariatur dolore aspernatur praesentium cumque. A quae obcaecati temporibus pariatur qui.",
     "tech":{"frame":"React","ui":"Tailwind"},
     "code":"url",
