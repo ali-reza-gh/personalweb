@@ -11,12 +11,12 @@ import DarkModeButton from "@/app/component/darkMode/DarkMode";
 export default function root() {
   return (
     <div>
-      <Home />
+      {/* <Home /> */}
       <Abuot />
-      <Project />
+      {/* <Project /> */}
       <DarkModeButton className={"fixed right-4 bottom-16 "} />  
-      <Contact />
-      <Footer />
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </div>
   );
 }

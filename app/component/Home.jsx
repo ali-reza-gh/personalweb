@@ -10,18 +10,20 @@ import Link from "next/link";
 const Home = () => {
     return (
         <section id="Home" className="bg-[#f9f9f9] dark:bg-black h-auto w-full">
-        <div className="w-3/5 justify-center m-auto">
-            <div className="flex gap-20 pt-52">
+        <div className="lg:max-w-5xl px-7 justify-center m-auto">
+            <div className="flex flex-col-reverse items-center lg:flex-row gap-12 lg:gap-20 pt-20  lg:pt-52">
               <div className="w-3/5 space-y-6 ">
-                <h1 className="relative text-6xl font-black leading-tight text-zinc-700 dark:text-white">
+                <div className='asli lg:relative flex'>
+                <h1 className="text-5xl lg:text-6xl text-center lg:text-left font-black leading-tight text-zinc-700 dark:text-white">
                   Front-End React Developer
-                <Image className="flex absolute left-80 bottom-1" src={waving} width={80} height={80} alt="waveHand" />
                 </h1>
-                <p className="text-[#555] dark:text-gray-400  text-lg font-medium leading-loose tracking-wide">
+                <Image className="flex w-16 h-16 lg:absolute lg:left-80 lg:bottom-0" src={waving} width={200} height={200} alt="waveHand" />
+                </div>
+                <p className="text-[#555] text-center lg:text-left dark:text-gray-400  text-lg font-medium leading-loose tracking-wide">
                   Hi, I'm Alireza Ghaffar. A passionate Front-end React
                   Developer based in Qazvin, Iran. 📍
                 </p>
-                <div className="flex gap-5">
+                <div className="flex gap-5 max-lg:justify-center">
                 <Link href="#">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +51,6 @@ const Home = () => {
                   href="https://github.com/ali-reza-gh"
                 >
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
                     width="32"
                     height="32"
                     viewBox="0 0 24 24"
@@ -65,7 +66,7 @@ const Home = () => {
                 </Link>
                 </div>
               </div>
-              <div className="flex w-2/5 justify-center "> 
+              <div className="flex lg:w-2/5 justify-center "> 
                    <div className="box">
                      <div className="spin-container">
                        <div className="shape">
@@ -74,13 +75,12 @@ const Home = () => {
                       </div>
                    </div>
               </div>
-              
-
             </div>
-            <div className="flex items-center gap-16 mt-32 pb-20">
-              <p className="text-lg font-medium border-r-2 border-gray-500 pr-6">Tech Stack</p>
+
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-16 mt-32 pb-20">
+              <p className="text-lg font-medium  max-lg:border-b-2 lg:border-r-2 border-gray-500 sm:max-lg:pb-7 lg:pr-6">Tech Stack</p>
               <div>
-                <ul className="flex gap-10">
+                <ul className="flex flex-wrap gap-10 justify-center">
                   <li>
                     <img
                       src="https://skillicons.dev/icons?i=html,css"
