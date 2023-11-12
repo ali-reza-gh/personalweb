@@ -2,14 +2,14 @@ import React from 'react';
 
 const Contact = () => {
     return (
-      <section id='Contact' >
-        <div className='max-w-5xl m-auto py-32 px-7'>
+      <section id='Contact' className='w-full'>
+        <div className='lg:max-w-5xl m-auto py-32 px-7'>
         <h3 className="text-blue-700 text-xl font-bold mb-2 uppercase" >contact</h3>
         <p className="text-2xl font-extrabold leading-snug">Don't be shy! Hit me up! 👇</p>
-        <div className='flex gap-32 mt-20'>
+        <div className='flex lg:flex-row max-lg:flex-col px-7 max-lg:gap-16 lg:gap-32 mt-20'>
         <div className='flex gap-7 items-center'>
         <div className='shadow-lg p-2 rounded-full'>
-        <svg  
+        <svg
             width="30" height="30" 
             viewBox="0 0 24 24" 
             fill="none" 
