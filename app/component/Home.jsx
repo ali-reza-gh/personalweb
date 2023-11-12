@@ -9,8 +9,8 @@ import Link from "next/link";
 
 const Home = () => {
     return (
-        <section id="Home" className="bg-[#f9f9f9] dark:bg-black h-[91vh]">
-        <div className="w-[950px] justify-center m-auto">
+        <section id="Home" className="bg-[#f9f9f9] dark:bg-black h-auto w-full">
+        <div className="w-3/5 justify-center m-auto">
             <div className="flex gap-20 pt-52">
               <div className="w-3/5 space-y-6 ">
                 <h1 className="relative text-6xl font-black leading-tight text-zinc-700 dark:text-white">
@@ -77,7 +77,7 @@ const Home = () => {
               
 
             </div>
-            <div className="flex items-center gap-16 mt-40">
+            <div className="flex items-center gap-16 mt-32 pb-20">
               <p className="text-lg font-medium border-r-2 border-gray-500 pr-6">Tech Stack</p>
               <div>
                 <ul className="flex gap-10">

@@ -9,7 +9,7 @@ import "@/app/styles/animation.css"
 const AboutMe = () => {
     return (
         <section id="About" >
-        <div className="w-[1000px] justify-center m-auto py-40">
+        <div className="w-3/5 justify-center m-auto py-40">
             <div className="flex">
                 <div className="w-1/2 flex relative">
                     <Image className='rounded-2xl object-cover' src={AboutMeIMG} alt='About me' width={400} height={300}/>

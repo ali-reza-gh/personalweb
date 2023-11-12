@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
     return (
       <section id='Contact' >
-        <div className='w-[1000px] m-auto py-32'>
+        <div className='w-3/5 m-auto py-32'>
         <h3 className="text-blue-700 text-xl font-bold mb-2 uppercase" >contact</h3>
         <p className="text-2xl font-extrabold leading-snug">Don't be shy! Hit me up! 👇</p>
         <div className='flex gap-32 mt-20'>

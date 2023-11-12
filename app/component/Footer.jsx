@@ -6,7 +6,7 @@ const Footer = () => {
     let year=d.getFullYear();
     return (
       <section id='Footer'className='bg-gray-900'>
-        <div className="flex w-[1000px] m-auto py-16 items-center justify-between">
+        <div className="flex w-3/5 m-auto py-16 items-center justify-between">
             <div>
                 <p className='text-lg text-white font-extrabold leading-snug'>Copyright &copy; {year}. All rights are reserved</p>
             </div>
