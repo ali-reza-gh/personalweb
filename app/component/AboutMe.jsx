@@ -5,12 +5,11 @@ import AboutMeSVG from '@/public/image/aboutsvg.svg'
 import programmer from '@/public/image/programmer.svg'
 import "@/app/styles/animation.css"
 
-
 const AboutMe = () => {
     return (
         <section id="About" className='w-auto'>
-        <div className="max-w-5xl px-7 justify-center m-auto py-40">
-            <div className="flex">
+        <div className="lg:max-w-5xl px-7 justify-center m-auto py-40">
+            <div className="flex lg:flex-row max-lg:flex-col">
                 <div className="w-1/2 flex relative">
                     <Image className='rounded-2xl object-cover' src={AboutMeIMG} alt='About me' width={400} height={300}/>
 
