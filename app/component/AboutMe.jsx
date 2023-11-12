@@ -7,10 +7,10 @@ import "@/app/styles/animation.css"
 
 const AboutMe = () => {
     return (
-        <section id="About" className='w-auto'>
+        <section id="About" className='w-full'>
         <div className="lg:max-w-5xl px-7 justify-center m-auto py-40">
-            <div className="flex lg:flex-row max-lg:flex-col">
-                <div className="w-1/2 flex relative">
+            <div className="flex lg:flex-row items-center max-lg:flex-col">
+                <div className="lg:w-1/2 flex relative max-lg:mb-10">
                     <Image className='rounded-2xl object-cover' src={AboutMeIMG} alt='About me' width={400} height={300}/>
 
                     <span className='absolute bottom-[-3rem] right-10 bg-white rounded-full '>
@@ -18,7 +18,7 @@ const AboutMe = () => {
                         <Image className='absolute bottom-14 right-14' src={programmer} alt='svg' width={90} height={90} />
                     </span>
                 </div>
-                <div className="w-1/2">
+                <div className="lg:w-1/2 max-lg:max-w-sm">
                     <h3 className="text-blue-600 text-xl font-bold mb-2 uppercase">About Me</h3>
                     <h4 className="text-2xl text-[#2d2e32] dark:text-white mb-4 font-extrabold leading-snug">A dedicated Front-end Developer<br/> based in Qazvin, IRAN 📍</h4>
                     <p className="text-gray-600 dark:text-gray-300 text-lg font-normal leading-snug">
