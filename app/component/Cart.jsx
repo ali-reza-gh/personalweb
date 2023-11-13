@@ -6,12 +6,12 @@ const Cart = (data) => {
     const {img,title, discription,tech, code, live ,isOdd} = data
     return (
         isOdd?
-        <div className='flex text-center border my-20 px-20 py-10 rounded-3xl gap-20'>
+        <div className='flex max-md:flex-col md:flex-row text-center border my-20 px-20 py-10 rounded-3xl gap-20 max-sm:my-5 max-sm:p-5'>
             
-            <div className='w-3/5 h-80 overflow-hidden rounded-2xl shadow-lg '>
+            <div className='lg:w-3/5 h-80 overflow-hidden rounded-2xl shadow-lg '>
             <Image src={img} alt='project image'width={900} height={700} className='transition duration-[10s] ease-in-out hover:-translate-y-[83%]'/>
             </div>
-            <div className='w-2/5 '>
+            <div className='md:w-2/5 max-md:justify-center'>
                 <p className="text-lg font-extrabold leading-snug">{title}</p>
                     <br/>
                 <p className="text-gray-600 dark:text-gray-300 text-lg font-normal leading-snug">{discription}</p>
@@ -30,9 +30,8 @@ const Cart = (data) => {
             </div>
             
         </div>:
-                <div className='flex text-center border my-20 px-20 py-10 rounded-3xl gap-20'>
-            
-                <div className='w-2/5 '>
+                <div className='flex max-md:flex-col-reverse md:flex-row text-center border my-20 px-20 py-10 rounded-3xl gap-20 max-sm:my-5 max-sm:p-5'>
+                   <div className='md:w-2/5 max-md:justify-center'>
                     <p className="text-lg font-extrabold leading-snug">{title}</p>
                         <br/>
                         <p className="text-gray-600 dark:text-gray-300 text-lg font-normal leading-snug">{discription}</p>
@@ -49,7 +48,7 @@ const Cart = (data) => {
                     </div>
     
                 </div>
-                <div className='w-3/5 h-80 overflow-hidden rounded-2xl shadow-lg'>
+                <div className='md:w-3/5 h-80 overflow-hidden rounded-2xl shadow-lg'>
             <Image src={img} alt='project image'width={900} height={700} className='transition duration-[10s] ease-in-out hover:-translate-y-[83%]'/>
                 </div>
             </div>
