@@ -16,7 +16,8 @@ export default function RootLayout({ children }) {
       <nav className=" sticky top-0 z-10 bg-white backdrop-filter backdrop-blur-lg bg-opacity-20 border-b border-black-200 shadow-md">
           <div className="relative flex items-center justify-between px-11 h-20">
             <span className="text-2xl text-gray-900 font-semibold dark:text-white">Alireza Ghaffar.dev</span>
-            <div className="flex space-x-4 font-semibold">
+            <div className='lg:hidden'><span>menu</span></div>
+            <div className="flex space-x-4 font-semibold max-lg:hidden">
               <a href="#Home">Home</a>
               <a href="#About">About</a>
               <a href="#Projects">Projects</a>
