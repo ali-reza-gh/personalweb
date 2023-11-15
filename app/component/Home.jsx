@@ -20,7 +20,7 @@ const Home = () => {
                 <Image className="flex w-16 h-16 lg:absolute lg:left-80 lg:bottom-0" src={waving} width={200} height={200} alt="waveHand" />
                 </div>
                 <p className="text-[#555] text-center lg:text-left dark:text-gray-400  text-lg font-medium leading-loose tracking-wide">
-                  Hi, I'm Alireza Ghaffar. A passionate Front-end React
+                  Hi, I&apos;m Alireza Ghaffar. A passionate Front-end React
                   Developer based in Qazvin, Iran. 📍
                 </p>
                 <div className="flex gap-5 max-lg:justify-center">
