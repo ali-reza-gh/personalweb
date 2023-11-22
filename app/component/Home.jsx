@@ -13,7 +13,7 @@ const Home = () => {
         <div className="lg:max-w-5xl px-7 justify-center m-auto">
             <div className="flex flex-col-reverse items-center lg:flex-row gap-12 lg:gap-20 pt-20  lg:pt-52">
               <div className="w-3/5 space-y-6 ">
-                <div className='asli lg:relative flex'>
+                <div className='lg:relative flex max-sm:justify-center'>
                 <h1 className="text-5xl lg:text-6xl text-center lg:text-left font-black leading-tight text-zinc-700 dark:text-white">
                   Front-End React Developer
                 </h1>
