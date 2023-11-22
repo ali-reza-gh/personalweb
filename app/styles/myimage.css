@@ -1,6 +1,6 @@
 .box {
-    width: 30vmin;
-    height: 30vmin;
+    width: 265px;
+    height: 265px;
     position: relative;
 }
 .box::before {
