@@ -17,7 +17,7 @@ const Home = () => {
                 <h1 className="text-5xl lg:text-6xl text-center lg:text-left font-black leading-tight text-zinc-700 dark:text-white">
                   Front-End React Developer
                 </h1>
-                <Image className="flex w-16 h-16 lg:absolute lg:left-80 lg:bottom-0" src={waving} width={200} height={200} alt="waveHand" />
+                <Image className="max-sm:hidden flex w-16 h-16 lg:absolute lg:left-80 lg:bottom-0" src={waving} width={200} height={200} alt="waveHand" />
                 </div>
                 <p className="text-[#555] text-center lg:text-left dark:text-gray-400  text-lg font-medium leading-loose tracking-wide">
                   Hi, I&apos;m Alireza Ghaffar. A passionate Front-end React

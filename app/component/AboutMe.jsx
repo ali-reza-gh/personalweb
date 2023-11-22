@@ -13,7 +13,7 @@ const AboutMe = () => {
                 <div className="lg:w-1/2 flex relative max-lg:mb-10">
                     <Image className='rounded-2xl object-cover' src={AboutMeIMG} alt='About me' width={400} height={300}/>
 
-                    <span className='absolute lg:bottom-[-3rem] max-lg:-bottom-14 max-lg:-right-14 lg:right-10 bg-white rounded-full '>
+                    <span className='max-sm:hidden absolute lg:bottom-[-3rem] max-lg:-bottom-14 max-lg:-right-14 lg:right-10 bg-white rounded-full '>
                         <Image id='svg' className="transform: rotate(3.142rad);" src={AboutMeSVG} alt='text' width={200} height={200}/>
                         <Image className='absolute bottom-14 right-14' src={programmer} alt='svg' width={90} height={90} />
                     </span>
